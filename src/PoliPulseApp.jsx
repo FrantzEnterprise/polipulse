@@ -1,13 +1,10 @@
 import React from "react";
 
-function PoliPulseApp() {
+export default function PoliPulseApp() {
   return (
-    <div>
-      {/* Your app content here */}
-      <h1>PoliPulse is Finally Visible!</h1>
-      <p>This should show up on the live site. 🎉</p>
+    <div style={{ textAlign: "center", padding: "50px", fontSize: "24px" }}>
+      <h1 style={{ color: "#0070f3" }}>✅ PoliPulse is Visible!</h1>
+      <p>If you can see this, React is rendering correctly. 🎉</p>
     </div>
   );
 }
-
-export default PoliPulseApp;
