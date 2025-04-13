@@ -7,7 +7,7 @@ export default function PoliPulseApp() {
   return (
     <div className="max-w-3xl mx-auto p-6">
       <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">
-        PoliPulse (Live)
+        PoliPulse - Civic Action Hub (Live)
       </h1>
 
       <Tabs defaultValue="challenges" className="w-full">
