@@ -1,7 +1,7 @@
 import React from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
+import { Card, CardContent } from "./components/ui/card";
+import { Button } from "./components/ui/button";
 
 export default function PoliPulseApp() {
   return (
@@ -29,23 +29,3 @@ export default function PoliPulseApp() {
                 <span className="text-lg font-medium">Daily Quiz</span>
                 <Button>+20 pts</Button>
               </CardContent>
-            </Card>
-          </div>
-        </TabsContent>
-
-        <TabsContent value="community">
-          <Card>
-            <CardContent className="p-4">
-              <p className="text-gray-700">
-                Welcome to the PoliPulse community! 🎉
-              </p>
-              <p className="text-sm text-gray-500 mt-2">
-                More features coming soon.
-              </p>
-            </CardContent>
-          </Card>
-        </TabsContent>
-      </Tabs>
-    </div>
-  );
-}
