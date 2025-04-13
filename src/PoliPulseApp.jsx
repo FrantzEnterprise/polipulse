@@ -7,7 +7,7 @@ export default function PoliPulseApp() {
   return (
     <div className="max-w-3xl mx-auto p-6">
       <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">
-        PoliPulse
+        PoliPulse (Live)
       </h1>
 
       <Tabs defaultValue="challenges" className="w-full">
@@ -29,3 +29,23 @@ export default function PoliPulseApp() {
                 <span className="text-lg font-medium">Daily Quiz</span>
                 <Button>+20 pts</Button>
               </CardContent>
+            </Card>
+          </div>
+        </TabsContent>
+
+        <TabsContent value="community">
+          <Card>
+            <CardContent className="p-4">
+              <p className="text-gray-700">
+                Welcome to the PoliPulse community! 🎉
+              </p>
+              <p className="text-sm text-gray-500 mt-2">
+                More features coming soon.
+              </p>
+            </CardContent>
+          </Card>
+        </TabsContent>
+      </Tabs>
+    </div>
+  );
+}
